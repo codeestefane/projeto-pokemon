@@ -1,6 +1,6 @@
 # Pokemon Game <img width="94" height="94" alt="a_pikachusnuggletogepi_poke" src="https://github.com/user-attachments/assets/24157f92-fb5b-4404-b1c8-4a39c796efa7" />
 
-📌 Este projeto pode ser executado por meio do arquivo "pokemon.exe" disponível neste repositório!
+📌 Este projeto pode ser executado por meio do arquivo "pokemon.exe" disponível neste repositório.
 
 ## Tela Inicial:
 <img width="958" height="637" alt="image" src="https://github.com/user-attachments/assets/82f99bf5-d2f4-43c4-9ef8-8d4dd8dc84e9" />
