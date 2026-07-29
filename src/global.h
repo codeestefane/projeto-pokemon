@@ -1,0 +1,120 @@
+#ifndef GLOBAL_H
+#define GLOBAL_H
+
+#include <raylib.h>
+#include <time.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+typedef struct{
+    int numero;
+    char nome[52];
+    char tipo1[22];
+    char tipo2[22];
+    int total;
+    int hp;
+    int ataque;
+    int defesa;
+    int ataqueEspecial;
+    int defesaEspecial;
+    int velocidade;
+    int geracao;
+    int lendario;
+    char cor[22];
+    float altura;
+    float peso;
+    int taxaCaptura;
+} Dados;
+
+typedef struct{
+    Texture2D textura;
+    Vector2 posicao;
+    Rectangle posicaoPlayer;
+    float velocidade;
+    float tempoPercorrido;
+    float ultimoTempo;
+    int frameX;
+    int frameY;
+    int estadoJogo;
+    bool colisao;
+    int genero;
+} Player;
+
+typedef struct{
+    Texture2D textura;
+    Vector2 posicao;
+    Rectangle posicaoPokemon;
+    bool desenhaPokemon;
+    bool aleatorizaPokemon;
+    bool apareceuPokemon;
+    int* indicePlanta;
+    int indiceImagem;
+} Pokemon;
+
+typedef struct{
+    Rectangle* posicaoGrama;
+    int qtdGrama;
+    Vector2* posicaoCorreio;
+    int indice;
+} Posicoes;
+
+typedef struct{
+    Texture2D textura;
+    Vector2 posicao;
+    float velocidade; 
+    int map[10][15];
+    int quadradinhoX;
+    int quadradinhoY;
+} Background;
+
+typedef struct{
+    Texture2D tituloPokemon;
+    Texture2D pokemonAviso;
+    Texture2D botaoIniciar;
+    Vector2 posicaoBotao;
+    Vector2 posicaoTitulo;
+    Vector2 posicaoPokemon;
+    int frameBotao;
+    bool piscaBotao;
+    Font fonte;
+} Aviso;
+
+typedef struct{
+    Texture2D backgroundBatalha;
+    Texture2D menuBase;
+    Texture2D pokemonSelvagem;
+    Texture2D pokemonPlayer;
+    Texture2D pokemonPlayerFront;
+    Texture2D menuChoose;
+    Texture2D menuMoveOptions;
+    Vector2 posicaoMenuMoveOptions;
+    Vector2 posicaoMenuChoose;
+    Vector2 posicaoPokemonPlayer;
+    Vector2 posicaoPokemonPlayerFront;
+    Vector2 posicaoPokemonSelvagem;
+    Vector2 posicaoBackground;
+    Vector2 posicaoMenuBase;
+    Font menuAtaque;
+    int tamanhoFonteInvestida;
+    int tamanhoFonteAtordoar;
+    int vidaPokemonAdversario;
+    int vidaPokemonPlayer;
+    bool estadoBatalha;
+    float ultimoTempo;
+    float tempoPercorrido;
+    bool contador;
+    bool ataquePlayer;
+    bool ataqueAdversario;
+    int indice;
+    //int decrementoPlayer;
+    //int decrementoAdversario;
+} Batalha;
+
+typedef struct{
+    Texture2D cursor;
+    Vector2 posicaoCursor;
+    bool investida;
+    bool atordoar;
+} Cursor;
+
+#endif
