@@ -1,5 +1,4 @@
-# Pokemon Game
-<img width="112" height="112" alt="a_pikachusnuggletogepi_poke" src="https://github.com/user-attachments/assets/28f7a524-9cdf-44c0-8bf5-7756d443d8f2" />
+# Pokemon Game <img width="112" height="112" alt="a_pikachusnuggletogepi_poke" src="https://github.com/user-attachments/assets/28f7a524-9cdf-44c0-8bf5-7756d443d8f2" />
 
 ## Tela Inicial:
 <img width="958" height="637" alt="image" src="https://github.com/user-attachments/assets/82f99bf5-d2f4-43c4-9ef8-8d4dd8dc84e9" />
