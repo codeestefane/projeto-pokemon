@@ -18,4 +18,5 @@
 ## Tela que apresenta o resultado final:
 <img width="955" height="637" alt="image" src="https://github.com/user-attachments/assets/712ff1c5-0177-4cff-b529-f20fd5a274ba" />
 
-**Obs:** Este projeto pode ser executado por meio do arquivo "pokemon.exe" disponível neste repositório!
+> [!TIP]
+> Este projeto pode ser executado por meio do arquivo "pokemon.exe" disponível neste repositório!
